@@ -29,7 +29,6 @@ h1 {
   text-align: center;
   margin: 0;
   text-decoration: underline;
-  margin-bottom: 20px;
   color: gold;
 }
 
@@ -83,4 +82,56 @@ h1 {
   font-size: 25px;
   color: gold;
   text-decoration: underline;
+}
+
+.menu h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  color: gold;
+  font-style: italic;
+}
+
+.dish {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.img-container {
+  flex: 1;
+}
+
+.left-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.dish-name {
+  color: gold;
+  margin: 0;
+  text-decoration: underline;
+}
+
+
+.description {
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 19px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 21px;
 }
