@@ -3,12 +3,11 @@ export function createHomeDiv() {
   div.classList.add("content-container");
   const html = 
   `
-    <h1>Hilu's Vietnamese Restaurant Breakfast</h1>
+    <h1>Hilu's Vietnamese Breakfast Restaurant</h1>
     <div class="review-container">
       <div class="star">⭐⭐⭐⭐⭐</div>
       <div class="review">
-        Clean restaurant and kitchen with proper tables to sit at. Truly Delicious food and reasonable portions. I've been there four times now and have always tried a new dish. The tamarind prawns were as good a taste as I could hope for. I also had a couple of good craft beers - a double IPA and a coconut based IPA. An easy place to get to in the old quarter, tucked near the end of a narrow street.
-      </div>
+        Hilu's Vietnamese Breakfast Restaurant offers a delightful start to the day with its authentic and flavorful dishes. The pho is aromatic and perfectly seasoned, while the banh mi is crispy and generously filled. The staff is friendly and attentive, creating a warm and inviting atmosphere. A must-visit spot for anyone looking to experience traditional Vietnamese morning cuisine.      </div>
       <div class="reviewer">- Lovely anonymous customer -</div>
     </div>
     <div class="hours-container">
