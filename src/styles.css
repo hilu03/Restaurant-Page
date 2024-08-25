@@ -1,15 +1,86 @@
 body {
   margin: 0;
+  background-image: url(background.jpg);
+  font-size: 20px;
+  color: white;
 }
 
 header {
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  margin-bottom: 30px;
+  background-color: goldenrod;
 }
 
 nav {
   display: flex;
   justify-content: center;
   gap: 30px;  
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: gold;
+}
+
+.content-container {
+  width: 50vw;
+  background-color: rgba(75, 75, 75, 0.5);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-container > div {
+  box-shadow: 
+  white -1px 1px 3px,
+  white 0px 1px 3px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.review {
+  font-style: italic;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.3;
+  padding: 15px;
+}
+
+.reviewer,
+.star {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.hours-container,
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hours-title,
+.location-title {
+  font-weight: bold;
+  font-size: 25px;
+  color: gold;
+  text-decoration: underline;
 }
