@@ -1,8 +1,8 @@
-import milkCoffee from './iced-milk-coffee.jpg';
-import eggCoffee from './egg-coffee.jpg';
-import pho from './pho.jpeg';
-import banhmi from './banh-mi.jpg';
-import myquang from './my-quang.png';
+import milkCoffee from './images/iced-milk-coffee.jpg';
+import eggCoffee from './images/egg-coffee.jpg';
+import pho from './images/pho.jpeg';
+import banhmi from './images/banh-mi.jpg';
+import myquang from './images/my-quang.png';
 
 export function createMenuDiv() {
   const div = document.createElement("div");
